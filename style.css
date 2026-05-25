@@ -57,9 +57,18 @@ h2 {
 }
 
 .task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: #f8fafc;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 14px 16px;
   margin-bottom: 10px;
+}
+
+.task-text {
+  margin: 0;
+  font-size: 16px;
+  color: #111827;
 }
